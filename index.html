@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Boletín de Notas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Boletín de Notas</h1>
+
+  <form id="formulario">
+    <input type="text" id="nombre" placeholder="Nombre del alumno">
+    <input type="text" id="asignatura" placeholder="Asignatura">
+    <input type="number" id="nota" placeholder="Nota (0-10)">
+    <button type="submit">Añadir Nota</button>
+  </form>
+
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Asignatura</th>
+        <th>Nota</th>
+      </tr>
+    </thead>
+    <tbody id="tablaNotas">
+    </tbody>
+  </table>
+
+  <script src="main.js"></script>
+</body>
+</html>
